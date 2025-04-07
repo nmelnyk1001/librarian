@@ -1,4 +1,5 @@
 import type { CharacterName } from "@/data/characters/registry";
+import type { HomebrewCharacter } from "@/data/characters/homebrew";
 
 export type Script = {
   id: string;
@@ -11,5 +12,5 @@ export type Script = {
     demonCount: number;
   };
   scriptJsonString: string;
-  characters: CharacterName[];
+  characters: CharacterName[] | HomebrewCharacter[];
 };

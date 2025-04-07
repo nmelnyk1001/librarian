@@ -1,0 +1,275 @@
+[
+  {
+    "id": "_meta",
+    "name": "Animalia",
+    "author": "Dyln",
+    "almanac": "https://www.bloodstar.xyz/p/googolplex33/Animalia/almanac.html"
+  },
+  {
+    "id": "falcon_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/falcon_animalia.png",
+    "firstNightReminder": "Show 1 character token.",
+    "otherNightReminder": "Show 1 character token.",
+    "reminders": ["In Play"],
+    "name": "Falcon",
+    "team": "townsfolk",
+    "ability": "Each night, you learn a character that is not in play.",
+    "firstNight": 16,
+    "otherNight": 13
+  },
+  {
+    "id": "ant_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/ant_animalia.png",
+    "firstNightReminder": "Wake the Ants one at a time. Show them good or evil thumbs.",
+    "otherNightReminder": "Wake the Ants one at a time. Show them good or evil thumbs.",
+    "setup": true,
+    "name": "Ant",
+    "team": "townsfolk",
+    "ability": "Each night, you learn if any other living Ant has a living evil neighbor. If you are the only living Ant, you instead learn if you have an evil living neighbor. [+0 to +2 Ants]",
+    "firstNight": 17,
+    "otherNight": 14
+  },
+  {
+    "id": "bear_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/bear_animalia.png",
+    "firstNightReminder": "Wake the Demon. Show the Bear token.",
+    "otherNightReminder": "If the dead equal or outnumber the living, point to a player who is not the Demon.",
+    "name": "Bear",
+    "team": "townsfolk",
+    "ability": "Each night, if the dead equal or outnumber the living, you learn 1 player who is not the Demon. The Demon knows you are in play.",
+    "firstNight": 13,
+    "otherNight": 20
+  },
+  {
+    "id": "bull_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/bull_animalia.png",
+    "firstNightReminder": "The Bull points to a player.",
+    "otherNightReminder": "Show good or evil thumbs based on the alignment of the previously chosen player. The Bull points to a player.",
+    "reminders": ["Chosen"],
+    "name": "Bull",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player (not yourself): you learn their alignment tomorrow night.",
+    "firstNight": 18,
+    "otherNight": 15
+  },
+  {
+    "id": "octopus_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/octopus_animalia.png",
+    "firstNightReminder": "The Octopus points to 2 players. Show the character token of one of the chosen players.",
+    "otherNightReminder": "The Octopus points to 2 players. Show the character token of one of the chosen players.",
+    "setup": true,
+    "name": "Octopus",
+    "team": "townsfolk",
+    "ability": "Each night, choose 2 players (not yourself): you learn 1 of their characters. [+1 Outsider]",
+    "firstNight": 19,
+    "otherNight": 16
+  },
+  {
+    "id": "lion_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/lion_animalia.png",
+    "otherNightReminder": "If the Lion was nominated today, show good or evil thumbs.",
+    "reminders": ["Nominated"],
+    "name": "Lion",
+    "team": "townsfolk",
+    "ability": "Each night*, if you were nominated today, you learn the alignment of the player that nominated you.",
+    "otherNight": 17
+  },
+  {
+    "id": "elephant_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/elephant_animalia.png",
+    "otherNightReminder": "Either nod or shake your head.",
+    "reminders": ["Evil Was Nominated"],
+    "name": "Elephant",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn if an evil player was nominated today.",
+    "otherNight": 18
+  },
+  {
+    "id": "gorilla_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/gorilla_animalia.png",
+    "otherNightReminder": "Either nod or shake your head.",
+    "name": "Gorilla",
+    "team": "townsfolk",
+    "ability": "Each night*, you learn if either of your 2 alive neighbors is not a Townsfolk.",
+    "otherNight": 19
+  },
+  {
+    "id": "crab_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/crab_animalia.png",
+    "reminders": ["No Ability"],
+    "setup": true,
+    "name": "Crab",
+    "team": "townsfolk",
+    "ability": "Once per game, during the day, publicly choose a player: if they are an Outsider, they die. [+1 Outsider]"
+  },
+  {
+    "id": "frog_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/frog_animalia.png",
+    "firstNightReminder": "The Frog might choose to use their ability. Wake their target and, if not the demon, inform them they are the Frog.",
+    "otherNightReminder": "The Frog might choose to use their ability. Wake their target and, if not the demon, inform them they are the Frog.",
+    "reminders": ["No Ability", "Drunk"],
+    "name": "Frog",
+    "team": "townsfolk",
+    "ability": "Once per game, at night, choose a living player: they learn this. If they are not the Demon, they become a Frog & are then drunk.",
+    "firstNight": 12,
+    "otherNight": 2
+  },
+  {
+    "id": "owl_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/owl_animalia.png",
+    "otherNightReminder": "When the dead outnumber the living, announce publicly that the Owl is in play.",
+    "reminders": ["No Ability"],
+    "name": "Owl",
+    "team": "townsfolk",
+    "ability": "Once per game, when the dead outnumber the living, everyone learns you are in play.",
+    "otherNight": 21
+  },
+  {
+    "id": "turtle_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/turtle_animalia.png",
+    "otherNightReminder": "If the Turtle died for the 1st time tonight, wake the Turtle and tell them this.",
+    "reminders": ["No Ability"],
+    "name": "Turtle",
+    "team": "townsfolk",
+    "ability": "The 1st time you die at night, you learn this and you don't die, even if drunk or poisoned.",
+    "otherNight": 12
+  },
+  {
+    "id": "skunk_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/skunk_animalia.png",
+    "otherNightReminder": "If the Demon killed the Skunk, show the Demon the Skunk token and do not wake them tomorrow night.",
+    "reminders": ["Does Not Wake"],
+    "name": "Skunk",
+    "team": "townsfolk",
+    "ability": "If the Demon kills you, they learn this & do not wake tomorrow night.",
+    "otherNight": 11
+  },
+  {
+    "id": "jellyfish_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/jellyfish_animalia.png",
+    "reminders": ["Drunk"],
+    "name": "Jellyfish",
+    "team": "outsider",
+    "ability": "If a Townsfolk nominates you, they are drunk until the end of the next day."
+  },
+  {
+    "id": "mule_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/mule_animalia.png",
+    "otherNightReminder": "If the Mule was not nominated by another player today, a player might die.",
+    "reminders": ["Nominated", "Dead"],
+    "name": "Mule",
+    "team": "outsider",
+    "ability": "A player might die tonight unless a player (not yourself) nominates you today.",
+    "otherNight": 8
+  },
+  {
+    "id": "tick_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/tick_animalia.png",
+    "firstNightReminder": "Point to a player.",
+    "reminders": ["Drunk"],
+    "name": "Tick",
+    "team": "outsider",
+    "ability": "1 player is drunk, even if you die. You know this player.",
+    "firstNight": 11
+  },
+  {
+    "id": "sloth_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/sloth_animalia.png",
+    "name": "Sloth",
+    "team": "outsider",
+    "ability": "You may only vote once per day."
+  },
+  {
+    "id": "scorpion_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/scorpion_animalia.png",
+    "firstNightReminder": "Wake a good player and tell them the Scorpion is in play.",
+    "otherNightReminder": "The Scorpion chooses a character.",
+    "reminders": ["Poisoned", "Knows"],
+    "name": "Scorpion",
+    "team": "minion",
+    "ability": "Each night*, choose a character (different to last night): if in play, they are poisoned until dusk. 1 good player knows a Scorpion is in play.",
+    "firstNight": 14,
+    "otherNight": 3
+  },
+  {
+    "id": "vulture_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/vulture_animalia.png",
+    "otherNightReminder": "If an Outsider is mad about being an Outsider, wake the Vulture and the Demon to learn a player and their character.",
+    "setup": true,
+    "name": "Vulture",
+    "team": "minion",
+    "ability": "For each Outsider that is mad about being an Outsider, you and the Demon learn a player's character. [+1 Outsider]",
+    "otherNight": 10
+  },
+  {
+    "id": "rat_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/rat_animalia.png",
+    "otherNightReminder": "If the Rat died by execution today, wake one of their living good neighbors. Show the YOU ARE & give a thumbs-down.",
+    "reminders": ["Evil"],
+    "name": "Rat",
+    "team": "minion",
+    "ability": "If you die by execution, a living good neighbor becomes evil tonight.",
+    "otherNight": 9
+  },
+  {
+    "id": "eel_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/eel_animalia.png",
+    "reminders": ["Once", "Twice", "Thrice"],
+    "name": "Eel",
+    "team": "minion",
+    "ability": "The 3rd time you are nominated, if you are not executed that day, evil wins."
+  },
+  {
+    "id": "cobra_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/cobra_animalia.png",
+    "firstNightReminder": "The Cobra might choose a player.",
+    "otherNightReminder": "The Cobra might choose a player. If they do not, all previously chosen players die.",
+    "reminders": [
+      "Poisoned",
+      "Poisoned",
+      "Poisoned",
+      "Marked",
+      "Marked",
+      "Marked",
+      "Dead",
+      "Dead",
+      "Dead"
+    ],
+    "name": "Cobra",
+    "team": "demon",
+    "ability": "Each night, you may choose a player: they are \"marked\" and are poisoned until dusk. If you choose no-one, all players you have \"marked\" die.",
+    "firstNight": 15,
+    "otherNight": 4
+  },
+  {
+    "id": "crocodile_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/crocodile_animalia.png",
+    "otherNightReminder": "The Crocodile chooses a player. Show them the THIS PLAYER IS & the character token of the chosen player.",
+    "reminders": ["Dead"],
+    "setup": true,
+    "name": "Crocodile",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. You might register as good & as a Townsfolk or Outsider. [-1 Outsider]",
+    "otherNight": 5
+  },
+  {
+    "id": "shark_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/shark_animalia.png",
+    "otherNightReminder": "The Shark chooses a player.",
+    "reminders": ["Dead", "Dead"],
+    "name": "Shark",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. If you choose a dead player, both of their neighbors die.",
+    "otherNight": 6
+  },
+  {
+    "id": "wolf_animalia",
+    "image": "https://www.bloodstar.xyz/p/googolplex33/Animalia/wolf_animalia.png",
+    "otherNightReminder": "The Wolf chooses a player.",
+    "reminders": ["Dead", "Executed"],
+    "name": "Wolf",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. All Minions lose their abilities and good cannot win if a Minion is alive, even if you are dead.",
+    "otherNight": 7
+  }
+]
